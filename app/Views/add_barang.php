@@ -330,18 +330,17 @@
 
             <div class="input-group mb-3" style="width:850px; border: 3px solid #00A9FF; border-radius: 5%;">
                 <span class="input-group-text" id="inputGroup-sizing-default">Jenis Barang</span>
-                <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" name="jenis_barang" id="jenis_barang">
+                <td><select name="jenis_barang" id="jenis_barang" class="form-control" required >
+                <option value hidden>-Pilih jenis-</option>
+                <option value="Minyak Goreng">Minyak Goreng</option>
+                <option value="Sabun">Sabun</option>
+                <option value="Saos">Saos</option>
+                <option value="Kecap">Kecap</option></select></td>
             </div>
 
             <div class="input-group mb-3" style="width:850px; border: 3px solid #00A9FF; border-radius: 5%;">
                 <span class="input-group-text" id="inputGroup-sizing-default">Merk Barang</span>
-                
-                <td><select name="merk_barang" id="merk_barang" class="form-control" required >
-                <option value hidden>-Pilih Merk-</option>
-                <option value="Bango">Bango</option>
-                <option value="ABC">ABC</option>
-                <option value="Indofood">Indofood</option>
-                <option value="Sedaap">Sedaap</option></select></td>
+                <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" name="merk_barang" id="merk_barang">
             </div>
 
             <div class="input-group mb-3" style="width:850px; border: 3px solid #00A9FF; border-radius: 5%;">
